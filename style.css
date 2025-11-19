@@ -97,20 +97,24 @@ body {
 }
 
 /* -------------------- BOTÃO DE REMOVER -------------------- */
-
-.treinoCard {
-  width: 260px;
-  background: white;
-  padding: 15px;
-  border-radius: 12px;
-  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
-  text-align: center;
-  transition: .3s;
+.treinoCard button {
+    margin-top: 12px;
+    padding: 10px 14px;
+    background: #e63946;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    width: 100%;
 }
 
-.treinoCard:hover {
-  transform: translateY(-5px);
+.treinoCard button:hover {
+    background: #b71d28;
 }
+
+
 
 .treinoCard img {
   width: 100%;
